@@ -7,5 +7,5 @@ git switch $branch
 
 git fetch origin
 
-git pull origin main
+git pull origin $branch
 
