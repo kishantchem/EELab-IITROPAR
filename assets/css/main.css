@@ -1816,6 +1816,12 @@ input, select, textarea {
 			padding: 0;
 		}
 
+.res_act1 .image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
 /* Button */
 
 	input[type="submit"],
