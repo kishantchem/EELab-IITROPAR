@@ -1921,7 +1921,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #E04B2B !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -3264,11 +3264,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #5DB51D;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #5DB51D;
 		}
 
 		.wrapper.style2 {
