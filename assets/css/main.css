@@ -1999,21 +1999,6 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-        /* Ensure images inside "features" boxes scale properly */
-        .features .image {
-          display: block;
-          margin-top: 1em;
-          border-radius: 8px;
-          overflow: hidden;
-        }
-        
-        .features .image img {
-          width: 100%;        /* Make image fill the box width */
-          height: auto;       /* Maintain aspect ratio */
-          object-fit: cover;  /* Crop neatly if too tall/wide */
-          display: block;
-          border-radius: 8px;
-        }
 
 		.features section {
 			padding: 3.5em 3em 1em 7em ;
@@ -2241,6 +2226,23 @@ input, select, textarea {
 				}
 
 		}
+
+  /* Ensure images inside "features" boxes scale properly */
+        .features .image {
+          display: block;
+          margin-top: 1em;
+          border-radius: 8px;
+          overflow: hidden;
+        }
+        
+        .features .image img {
+          width: 100%;        /* Make image fill the box width */
+          height: auto;       /* Maintain aspect ratio */
+          object-fit: cover;  /* Crop neatly if too tall/wide */
+          display: block;
+          border-radius: 8px;
+        }
+
 
 /* Form */
 
