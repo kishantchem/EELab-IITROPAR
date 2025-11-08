@@ -3965,3 +3965,57 @@ input, select, textarea {
   padding-left: 1em;
 }
 
+
+/* ==============================
+   Responsive Sidebar as Top Bar
+   ============================== */
+
+@media screen and (max-width: 980px) {
+  /* Make sidebar visible again */
+  #sidebar {
+    display: flex !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: #2e2252; /* your sidebar color */
+    padding: 0.5em 1em;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Adjust menu layout horizontally */
+  #menu {
+    width: 100%;
+  }
+
+  #menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.5em;
+    border: none;
+  }
+
+  #menu ul li a:hover {
+    color: #b74e91; /* your highlight color */
+  }
+
+  /* Push main content below navbar */
+  #wrapper {
+    padding-top: 4em; /* adjust if nav height changes */
+  }
+}
+
