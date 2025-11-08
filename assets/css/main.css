@@ -3931,3 +3931,37 @@ input, select, textarea {
 			}
 
 		}
+
+
+/* ===========================================
+   Publications, Patents & Technology Section
+=========================================== */
+.wrapper.style2 {
+  background-color: #1f2937;  /* dark blue-gray tone */
+  color: #fff;
+}
+
+.subsection {
+  margin-top: 2em;
+}
+
+.subsection h3 {
+  color: #b74e91; /* highlight color for headings */
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid rgba(255,255,255,0.2);
+  display: inline-block;
+  padding-bottom: 0.2em;
+}
+
+.subsection ul.alt {
+  list-style: none;
+  padding-left: 1em;
+}
+
+.subsection ul.alt li {
+  margin-bottom: 0.8em;
+  line-height: 1.6;
+  border-left: 3px solid #b74e91;
+  padding-left: 1em;
+}
+
