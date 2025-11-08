@@ -3965,57 +3965,38 @@ input, select, textarea {
   padding-left: 1em;
 }
 
+/* ===================================
+   Mobile Menu Button (Hamburger)
+=================================== */
 
-/* ==============================
-   Responsive Sidebar as Top Bar
-   ============================== */
+.menuToggle {
+  display: none; /* Hidden by default (desktop) */
+}
 
 @media screen and (max-width: 980px) {
-  /* Make sidebar visible again */
-  #sidebar {
-    display: flex !important;
+  .menuToggle {
+    display: block;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    background: #2e2252; /* your sidebar color */
-    padding: 0.5em 1em;
-    z-index: 1000;
-    justify-content: center;
-    align-items: center;
+    top: 1rem;
+    right: 1.2rem;
+    font-size: 1.6em;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding: 0.4em 0.6em;
+    z-index: 2000;
+    transition: background 0.3s ease;
   }
 
-  /* Adjust menu layout horizontally */
-  #menu {
-    width: 100%;
+  .menuToggle:hover {
+    background: #b74e91; /* highlight color */
   }
 
-  #menu ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1em;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  /* Optional: hide sidebar on mobile */
+  #sidebar {
+    display: none;
   }
 
-  #menu ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1em;
-    padding: 0.5em;
-    border: none;
-  }
-
-  #menu ul li a:hover {
-    color: #b74e91; /* your highlight color */
-  }
-
-  /* Push main content below navbar */
-  #wrapper {
-    padding-top: 4em; /* adjust if nav height changes */
-  }
+  /* Hyperspace auto-handles showing #menu as popup */
 }
 
