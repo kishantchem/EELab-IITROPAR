@@ -300,5 +300,16 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+
+<script>
+document.querySelectorAll('#menu a').forEach(a => {
+  a.addEventListener('click', () => {
+    document.body.classList.remove('is-menu-visible');
+  });
+});
+</script>
+
+
+
 	</body>
 </html>
