@@ -4019,3 +4019,82 @@ input, select, textarea {
   /* Hyperspace auto-handles showing #menu as popup */
 }
 
+
+/* ==============================
+   Mobile Menu Styles
+============================== */
+.mobile-nav {
+  display: none;
+}
+
+/* Show horizontal menu on small screens */
+@media screen and (max-width: 980px) {
+
+  /* Hide sidebar on mobile */
+  #sidebar {
+    display: none;
+  }
+
+  /* Position menu trigger (hamburger) */
+  .menuToggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1001;
+    background: rgba(0,0,0,0.4);
+    border-radius: 8px;
+    padding: 0.5em 0.7em;
+    font-size: 1.4em;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .menuToggle:hover {
+    background: #b74e91;
+  }
+
+  /* Style mobile menu */
+  .mobile-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #2e2252;
+    padding: 4rem 1rem 2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+  }
+
+  .mobile-nav.open {
+    display: block;
+  }
+
+  .mobile-nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1em;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mobile-nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.05em;
+    font-weight: 500;
+    background: rgba(255,255,255,0.1);
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+
+  .mobile-nav ul li a:hover {
+    background: #b74e91;
+  }
+}
+
+

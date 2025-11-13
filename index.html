@@ -12,6 +12,24 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+
+<script>
+const menuToggle = document.querySelector('.menuToggle');
+const mobileMenu = document.querySelector('#mobileMenu');
+
+menuToggle.addEventListener('click', function(e) {
+  e.preventDefault();
+  mobileMenu.classList.toggle('open');
+});
+
+// Optional: close the menu when a link is clicked
+document.querySelectorAll('#mobileMenu a').forEach(link => {
+  link.addEventListener('click', () => {
+    mobileMenu.classList.remove('open');
+  });
+});
+</script>
+
 	<body class="is-preload">
 
 		<!-- Sidebar -->
@@ -35,6 +53,16 @@
 <!-- Mobile Menu Trigger -->
 <a href="#menu" class="menuToggle"><span class="icon solid fa-bars"></span></a>
 
+<!-- Mobile Navigation (for small screens) -->
+<nav id="mobileMenu" class="mobile-nav">
+  <ul>
+    <li><a href="#intro">Welcome</a></li>
+    <li><a href="#one">Research Group Members</a></li>
+    <li><a href="#two">Research Activities</a></li>
+    <li><a href="#three">Publications, Patent & Technology Transfer</a></li>
+    <li><a href="#four">Contact Us</a></li>
+  </ul>
+</nav>
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
