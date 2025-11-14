@@ -4097,4 +4097,17 @@ input, select, textarea {
   }
 }
 
+/* Hide mobile menu on desktop */
+@media screen and (min-width: 981px) {
+    #menu {
+        display: none;
+    }
+}
+
+/* Hide sidebar on mobile */
+@media screen and (max-width: 980px) {
+    #sidebar {
+        display: none;
+    }
+}
 
