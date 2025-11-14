@@ -6,341 +6,271 @@
 -->
 <html>
 	<head>
-		<title>Hyperspace by HTML5 UP</title>
+		<title>KumarLab - IIT Ropar</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-
-<script>
-const menuToggle = document.querySelector('.menuToggle');
-const mobileMenu = document.querySelector('#mobileMenu');
-
-menuToggle.addEventListener('click', function(e) {
-  e.preventDefault();
-  mobileMenu.classList.toggle('open');
-});
-
-// Optional: close the menu when a link is clicked
-document.querySelectorAll('#mobileMenu a').forEach(link => {
-  link.addEventListener('click', () => {
-    mobileMenu.classList.remove('open');
-  });
-});
-</script>
-
 	<body class="is-preload">
 
-		<!-- Sidebar -->
-			<section id="sidebar">
+		<!-- Sidebar (desktop view) -->
+		<section id="sidebar">
+			<div class="inner">
+				<nav id="menu">
+					<ul>
+						<li><a href="#intro">Welcome</a></li>
+						<li><a href="#one">Research Group Members</a></li>
+						<li><a href="#two">Research Activities</a></li>
+						<li><a href="#three">Publications, Patent & Technology Transfer</a></li>
+						<li><a href="#four">Contact Us (for Collaboration, Junior Research Fellow and PhD)</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Mobile Menu Trigger -->
+			<a href="#menu" class="menuToggle"><span class="icon solid fa-bars"></span></a>
+
+			<!-- Intro -->
+			<section id="intro" class="wrapper style1 fullscreen fade-up">
 				<div class="inner">
-					<nav id="menu">
-						<ul>
-								<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Research Group Members</a></li>
-							<li><a href="#two">Research Activities</a></li>
-							<li><a href="#three">Publications, Patent & Technology Transfer</a></li>
-							<li><a href="#four">Contact Us (for Collaboration, Junior Research Fellow and PhD)</a></li>
-						</ul>
-					</nav>
+					<h1>Welcome to Energy & Environment Laboratory at IIT Ropar</h1>
+					<p>Dr. Kishant Kumar has computational as well as experimental expertise. His expertise in computational technique includes Density Functional Theory, Molecular Dynamics, Monte Carlo Simulations and Machine Learning. In experimental section, ongoing research includes battery recycling, gas separation and storage studies using porous materials and different solvents.</p>
+					<ul class="actions">
+						<li><a href="#one" class="button scrolly">Learn more</a></li>
+					</ul>
 				</div>
 			</section>
 
-
-<!-- Mobile Navigation (for small screens) -->
-<nav id="mobileMenu" class="mobile-nav">
-  <ul>
-    <li><a href="#intro">Welcome</a></li>
-    <li><a href="#one">Research Group Members</a></li>
-    <li><a href="#two">Research Activities</a></li>
-    <li><a href="#three">Publications, Patent & Technology Transfer</a></li>
-    <li><a href="#four">Contact Us</a></li>
-  </ul>
-</nav>
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-
-<!-- Mobile Menu Trigger -->
-<a href="#menu" class="menuToggle"><span class="icon solid fa-bars"></span></a>
-
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
+			<!-- One -->
+			<section id="one" class="wrapper style2 spotlights">
+				<section>
+					<a href="#" class="image"><img src="images/mithilesh.jpeg" alt="mithilesh" data-position="top center" /></a>
+					<div class="content">
 						<div class="inner">
-							<h1>Welcome to Energy & Environment Laboratory at IIT Ropar</h1>
-							<p>Dr. Kishant Kumar has computational as well as experimental expertise. His expertise in computational technique includes Density Functional Theory, Molecular Dynamics, Monte Carlo Simulations and Machine Learning. In experimental section, ongoing research includes battery recycling, gas separation and storage studies using porous materials and different solvents.</p>
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							<h2>Mithilesh Prajapati</h2>
+							<p>Past Affiliation: M.Tech (IIT BHU)</p>
+							<p>PhD Topic: Recovery of Valuable Metals from Spent Lithium-ion Batteries</p>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<a href="#" class="image"><img src="images/mehreen.jpg" alt="mehreen" data-position="top center" /></a>
+					<div class="content">
+						<div class="inner">
+							<h2>Mehreen Javid</h2>
+							<p>Past Affiliation: M.Tech (Jamia Millia Islamia, New Delhi)</p>
+							<p>PhD Topic: Next Generation Materials for Hydrogen Storage</p>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<a href="#" class="image"><img src="images/richa.jpg" alt="richa" data-position="top center" /></a>
+					<div class="content">
+						<div class="inner">
+							<h2>Richa Pal</h2>
+							<p>Past Affiliation: M.Sc (CSJM University, Kanpur)</p>
+							<p>PhD Topic: Nanomaterial-based drug delivery systems and computational analysis using molecular dynamics.</p>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<a href="#" class="image"><img src="images/kiran.jpeg" alt="kiran" data-position="top center" /></a>
+					<div class="content">
+						<div class="inner">
+							<h2>Kiran Kumari</h2>
+							<p>Past Affiliation: M.Tech (IIT Guwahati)</p>
+							<p>PhD Topic: Hydrogen storage in Metal–Organic Frameworks (MOFs)</p>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<a href="#" class="image"><img src="images/raju.png" alt="raju" data-position="top center" /></a>
+					<div class="content">
+						<div class="inner">
+							<h2>Raju Das</h2>
+							<p>Past Affiliation: B.Tech (Guru Ghasidas University, Chhattisgarh)</p>
+							<p>PhD Topic: Lithium-ion battery recycling</p>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<a href="#" class="image"><img src="images/ajay.png" alt="ajay" data-position="top center" /></a>
+					<div class="content">
+						<div class="inner">
+							<h2>Ajay Kumar</h2>
+							<p>Present Affiliation: General Manager (ONGC, New Delhi)</p>
+							<p>PhD Topic: Gas Storage and Separation using Porous Materials</p>
+						</div>
+					</div>
+				</section>
+			</section>
+
+			<!-- Two -->
+			<section id="two" class="wrapper style3 fade-up">
+				<div class="inner">
+					<h2>What we do</h2>
+					<p>Our research group members are involved in both experimental and computational investigations.</p>
+					<div class="features">
+						<section>
+							<span class="icon solid major fa-wave-square"></span>
+							<h3>Recovery of Valuable Metals</h3>
+							<p>We develop methodologies to recover valuable metals like Lithium and Cobalt from spent LIBs with a leaching efficiency of ~99%.</p>
+							<a href="#" class="image"><img src="images/research1.png" alt="" /></a>
+						</section>
+
+						<section>
+							<span class="icon solid major fa-wave-sine"></span>
+							<h3>Hydrogen Storage in MOFs</h3>
+							<p>Designing advanced MOFs for high-capacity hydrogen storage for green fuel applications.</p>
+							<a href="#" class="image"><img src="images/hydrogen-storage-mof.png" alt="" /></a>
+						</section>
+
+						<section>
+							<span class="icon solid major fa-atom"></span>
+							<h3>Gas Separation using Porous Materials</h3>
+							<p>Gas separation using MOFs, zeolites, and porous carbons enables energy-efficient, high-purity gas production.</p>
+							<a href="#" class="image"><img src="images/gas-separation.png" alt="" /></a>
+						</section>
+
+						<section>
+							<span class="icon solid major fa-flask"></span>
+							<h3>Gas Absorption using Solvents</h3>
+							<p>We explore amine, ionic liquid (IL), and deep eutectic solvent (DES) systems for selective CO₂ and H₂S absorption.</p>
+							<a href="#" class="image"><img src="images/gas-absorption.png" alt="" /></a>
+						</section>
+					</div>
+				</div>
+			</section>
+
+			<!-- Three -->
+			<section id="three" class="wrapper style2 fade-up">
+				<div class="inner">
+					<h2>Publications, Patents & Technology Transfer</h2>
+					<p>Our research outputs include peer-reviewed journal articles, patents, and industrial technology transfers.</p>
+
+					<section class="subsection">
+						<h3>Recent Publications</h3>
+						<ul class="alt">
+							<li><strong>1.</strong> Vora, Y. et al., “PEGylated deep eutectic solvents,” <em>J. Mol. Liquids</em>, 2025.</li>
+							<li><strong>2.</strong> Sharma, A. et al., “Cu₂O/CuO/Mn₃O₄/C nanocomposites,” <em>J. Phys. Chem. Solids</em>, 2025.</li>
+							<li><strong>3.</strong> Bejjanki, D. et al., “WO₃ Nanoparticle/Biomass Activated Carbon/Polyaniline Nanocomposite,” <em>ChemistrySelect</em>, 2024.</li>
+						</ul>
+					</section>
+
+					<section class="subsection">
+						<h3>Patents</h3>
+						<ul class="alt">
+							<li><strong>1.</strong> K. Kumar et al., “Method for recovery of Li and Co from spent LIBs,” Patent Application No. 2023-XXXX.</li>
+							<li><strong>2.</strong> K. Kumar et al., “MXene-based acetone gas sensor,” Patent Application No. 2024-YYYY.</li>
+						</ul>
+					</section>
+
+					<section class="subsection">
+						<h3>Technology Transfer</h3>
+						<ul class="alt">
+							<li><strong>1.</strong> LIB metal recovery process transferred to ABC Energy Pvt. Ltd., 2024.</li>
+							<li><strong>2.</strong> Gas sensor calibration module adopted by DEF Instruments, 2025.</li>
+						</ul>
+					</section>
+				</div>
+			</section>
+
+			<!-- Four -->
+			<section id="four" class="wrapper style4 fade-up">
+				<div class="inner">
+					<h2>Visitors Section</h2>
+					<p>Visitors interested in research collaboration or PhD/JRF positions are welcome to contact us below.</p>
+					<div class="split style1">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="5"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><a href="#" class="button submit">Send Message</a></li>
+								</ul>
+							</form>
+						</section>
+
+						<section>
+							<ul class="contact">
+								<li>
+									<h3>Address</h3>
+									<span>Room No-316, Dept. of Chemical Engineering,<br>IIT Ropar, Punjab, India-140001</span>
+								</li>
+								<li>
+									<h3>Email</h3>
+									<a href="mailto:kishant@iitrpr.ac.in">kishant@iitrpr.ac.in</a>
+								</li>
+								<li>
+									<h3>Phone</h3>
+									<span>+91-1881-23-4016</span>
+								</li>
 							</ul>
-						</div>
-					</section>
-
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/mithilesh.jpeg" alt="mithilesh" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Mithilesh Prajapati</h2>
-									<p>Past Affiliation: M.Tech (IIT BHU)</p>
-									<p>PhD Topic: Recovery of Valuable Metals from Spent Lithium-ion Batteries</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
 						</section>
-						<section>
-							<a href="#" class="image"><img src="images/mehreen.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Mehreen Javid</h2>
-									<p>Past Affiliation: M.Tech (Jamia Milia Islamia, New Delhi)</p>
-									<p>PhD Topic: Next Generation Materials for Hydrogen Storage </p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/richa.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Richa Pal</h2>
-									<p>Past Affiliation: M.Sc (CSJM University, Kanpur)</p>
-									<p>PhD Topic: Development of advanced nanomaterial-based drug delivery systems and computational analysis using molecular dynamics</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
- 						<section>
-                                                        <a href="#" class="image"><img src="images/kiran.jpeg" alt="" data-position="top center" /></a>
-                                                        <div class="content">
-                                                                <div class="inner">
-                                                                        <h2>Kiran Kumari</h2>
-                                                                        <p>Past Affiliation: M.Tech (IIT Guwahati)</p>
-                                                                        <p>PhD Topic: Hydrogen storage  in Metal–Organic Frameworks (MOFs)</p>
-                                                                        <ul class="actions">
-                                                                                <li><a href="generic.html" class="button">Learn more</a></li>
-                                                                        </ul>
-                                                                </div>
-                                                        </div>
-                                                </section>
-                                                <section>
-                                                        <a href="#" class="image"><img src="images/raju.png" alt="" data-position="top center" /></a>
-                                                        <div class="content">
-                                                                <div class="inner">
-                                                                        <h2>Raju Das</h2>
-                                                                        <p>Past Affiliation: B.Tech (Guru Ghasida University, Chhattisgarh)</p>
-                                                                        <p>PhD Topic: Lithium-ion battery recycling </p>
+					</div>
+				</div>
+			</section>
 
-                                                                        <ul class="actions">
-                                                                                <li><a href="generic.html" class="button">Learn more</a></li>
-                                                                        </ul>
-                                                                </div>
-                                                        </div>
-                                                </section>
-
-                                                <section>
-                                                        <a href="#" class="image"><img src="images/ajay.png" alt="" data-position="top center" /></a>
-                                                        <div class="content">
-                                                                <div class="inner">
-                                                                        <h2>Ajay Kumar</h2>
-                                                                        <p>Present Affiliation: General Manager(ONGC, New Delhi)</p>
-                                                                        <p>PhD Topic: Gas Storage and Separation using Porous Materials</p>
-
-                                                                        <ul class="actions">
-                                                                                <li><a href="generic.html" class="button">Learn more</a></li>
-                                                                        </ul>
-                                                                </div>
-                                                        </div>
-					</section>
-					</section>
-
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>What we do</h2>
-							<p>Our research group members involved in both experiment as well as computational investigations.</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-wave-square"></span>
-									<h3>Recovery of Valuable Metals</h3>
-									<p>Currently, we are developing methodology to recover the valuable metals from spent lithium ion batteries (LIBs). The valuable elements such as Lithium and Cobalt present in the LIBs are recovered with a leaching efficiecy of almost 99%.</p>
-
-                                                        <a href="#" class="image"><img src="images/research1.png" alt="" data-position="25% 25%" /></a>
-								
-								</section>
-								<section>
-									<span class="icon solid major fa-wave-sine"></span>
-									<h3>Hydrogen Storage in Metal Organic Frameworks (MoFs)</h3>
-									<p>We are designing several MoFs to enhance the storage capcity of hydrogen gas for onboard applications as an alternate green fuel.</p>
-
-<a href="#" class="image"><img src="images/hydrogen-storage-mof.png" alt="" data-position="25% 25%" /></a>
-
-
-								</section>
-
-								 <section>
-                                                                        <span class="icon solid major fa-atom"></span>
-                                                                        <h3>Gas Separation using Porous and Functionalized Materials</h3>
-                                                                        <p>Gas separation using porous materials is crucial for producing high-purity gases, reducing energy consumption compared to conventional separation methods. These materials—such as MOFs, zeolites, and porous carbons—offer selective adsorption based on molecular size and affinity, enabling efficient separation of industrially important gases like CO₂, O₂, N₂, H₂, H₂S, SO₂ and CH₄.</p>
-
-<a href="#" class="image"><img src="images/gas-separation.png" alt="" data-position="25% 25%" /></a>
-
-                                                                </section>
-
-								<section>
-									<span class="icon solid major fa-flask"></span>
-									<h3>Gas Separation and Purification using Solvents</h3>
-									<p>Gas absorption using amine solvents is a well-established technique for capturing acidic gases like CO₂ and H₂S due to their high reactivity and selectivity. In contrast, alternative solvents such as ionic liquids (ILs) and deep eutectic solvents (DESs) offer tunable physicochemical properties, lower volatility, and improved thermal stability, making them promising for energy-efficient and environmentally friendly gas absorption processes.</p>
-
-<a href="#" class="image"><img src="images/gas-absorption.png" alt="" data-position="25% 25%" /></a>
-								</section>
-							</div>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
-						</div>
-					</section>
-
-                                        </section>
-
-                                <!-- Three -->
-
-                               <!-- Publications, Patents, and Technology Transfer -->
-                               <section id="three" class="wrapper style2 fade-up">
-                                 <div class="inner">
-                                   <h2>Publications, Patents & Technology Transfer</h2>
-                                   <p>Our research outputs include peer-reviewed journal articles, granted patents, and technologies transferred to industry partners.</p>
-                               
-                                   <!-- Publications -->
-                                   <section class="subsection">
-                                     <h3>Recent Publications</h3>
-                                     <ul class="alt">
-                                       <li><strong>1.</strong> Vora, Y., Prajapati, M., Khokhar, V., Zodape, S. P., Kumar, K., Pandey, S., & Kuperkar, K., "Novel PEGylated deep eutectic solvents: A thermophysical and photophysical investigation" <em>Journal of Molecular Liquids</em>, 2025.</li>
-                                       <li><strong>2.</strong> Sharma, A., Banothu, Y. N., Majee, P., Kumar, S., Prajapati, M., Kumar, K., & Pradhan, M., "Redox-mediated synthesis of Cu2O/CuO/Mn3O4/C quaternary nanocomposites as an efficient electrode material for oxygen reduction reaction and supercapacitor application," <em>Journal of Physics and Chemistry of Solids</em>, 2025.</li>
-                                       <li><strong>3.</strong> Bejjanki, D., Mohan Seepana, M., Kumar, K., & Kumar Puttapati, S.  "WO3 Nanoparticle/Biomass Derived N‐Doped Activated Carbon Decorated with Polyaniline Nanofibers Ternary Nanocomposite for High‐Performance Symmetric and Asymmetric Supercapacitor.," <em>ChemistrySelect</em>, 2024.</li>
-                                     </ul>
-                                   </section>
-                               
-                                   <!-- Patents -->
-                                   <section class="subsection">
-                                     <h3>Patents</h3>
-                                     <ul class="alt">
-                                       <li><strong>1.</strong> K. Kumar <em>et al.</em>, “A method for recovery of Li and Co from spent LIBs,” Patent Application No. 2023-XXXX, filed 2023.</li>
-                                       <li><strong>2.</strong> K. Kumar <em>et al.</em>, “MXene-based acetone gas sensor,” Patent Application No. 2024-YYYY, filed 2024.</li>
-                                     </ul>
-                                   </section>
-                               
-                                   <!-- Technology Transfer -->
-                                   <section class="subsection">
-                                     <h3>Technology Transfer</h3>
-                                     <ul class="alt">
-                                       <li><strong>1.</strong> Li-ion battery metal recovery technology transferred to ABC Energy Pvt. Ltd., 2024.</li>
-                                       <li><strong>2.</strong> Gas sensor calibration module adopted by DEF Instruments, 2025.</li>
-                                     </ul>
-                                   </section>
-                                 </div>
-                               </section>
-
-
-
-				<!-- Four -->
-					<section id="four" class="wrapper style4 fade-up">
-						<div class="inner">
-							<h2>Visitors Section </h2>
-							<p>In this section, visitors interested in research collaboration and JRF or PhD position are welcome to provide your input through the form</p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<span>Room No-316<br />
-											Department of Chemical Engineering<br />
-											Indian Institute of Technology Ropar<br />
-											Punjab, India-140001</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="#">kishant@iitrpr.ac.in</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>+91-1881-23-4016</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
-
-			</div>
+		</div>
 
 		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Dr.Kishant'sLab. All rights reserved.</li><li>Designed: <a href="http://www.kumarlab.in">HTML5</a></li>
-					</ul>
-				</div>
-			</footer>
+		<footer id="footer" class="wrapper style1-alt">
+			<div class="inner">
+				<ul class="menu">
+					<li>&copy; Dr. Kishant’s Lab. All rights reserved.</li>
+					<li>Designed with <a href="http://www.kumarlab.in">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
+		<!-- Custom Script: Toggle mobile menu -->
+		<script>
+		const menuToggle = document.querySelector('.menuToggle');
+		const sidebar = document.querySelector('#sidebar');
 
-<script>
-document.querySelectorAll('#menu a').forEach(a => {
-  a.addEventListener('click', () => {
-    document.body.classList.remove('is-menu-visible');
-  });
-});
-</script>
+		menuToggle.addEventListener('click', function(e) {
+		  e.preventDefault();
+		  document.body.classList.toggle('is-menu-visible');
+		});
 
-
-
+		// Close menu when clicking a link
+		document.querySelectorAll('#menu a').forEach(link => {
+		  link.addEventListener('click', () => {
+		    document.body.classList.remove('is-menu-visible');
+		  });
+		});
+		</script>
 	</body>
 </html>
+
