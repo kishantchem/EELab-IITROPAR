@@ -4111,3 +4111,10 @@ input, select, textarea {
     }
 }
 
+
+/* Disable sidebar on small screens */
+@media screen and (max-width: 980px) {
+  #sidebar {
+    display: none;
+  }
+}
