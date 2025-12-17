@@ -4122,14 +4122,8 @@ input, select, textarea {
 /* ===== 6-BOX GRID ===== */
 .features.grid-6 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2em;
-}
-
-@media screen and (max-width: 980px) {
-  .features.grid-6 {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 @media screen and (max-width: 736px) {
